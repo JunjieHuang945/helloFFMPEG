@@ -7,3 +7,5 @@ ffmpeg demo by Android studio 4.2
 3.ffmpeg\app\src\main\cpp\CMakeLists.txt注意头文件路径和so路径定义`8行`和第`10行`。  
 4.ffmpeg\app\src\main\cpp\CMakeLists.txt注意CPU指令集的定义需要列如`${ANDROID_ABI}`，需要构建编译时so与之对应的路径。  
 5.ffmpeg\app\src\main\cpp\native-lib.cpp引入头文件的定义，由于使用了C++语言方式调用ffmpeg，引入头文件时需要放置在`extern "C"{xxx}`中  
+
+更多相关说明请阅读http://foxhome.top/2021/05/20/503.html
